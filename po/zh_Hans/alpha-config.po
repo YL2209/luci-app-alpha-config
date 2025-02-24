@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: dingpengyu <jerrykuku@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: applications/luci-app-alpha-config/root/usr/share/luci/menu.d/luci-app-alpha-config.json:3
+msgid "Alpha Config"
+msgstr "Alpha 主题设置"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:15
+msgid "Alpha theme configuration"
+msgstr "Alpha主题配置"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:15
+msgid "Here you can set background login and dashboard themes. Chrome is recommended."
+msgstr "在此处你可以设置登录背景和仪表盘主题。推荐使用Chrome浏览器。"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:17
+msgid "Theme configuration"
+msgstr "主题配置"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:19
+msgid "Primary color"
+msgstr "主色调"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:19
+msgid "A HEX color (default: #2222359a)."
+msgstr "一个十六进制颜色（默认值：#2222359a）"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:23
+msgid "Expecting: valid HEX color value"
+msgstr "预期：有效的十六进制颜色值"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
+msgid "Transparency level"
+msgstr "透明度级别"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
+msgid "Transparent level for menu."
+msgstr "菜单的透明度级别"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:34
+msgid "Navigation bar"
+msgstr "导航栏"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:34
+msgid "Enable navigation bar menu."
+msgstr "启用导航栏菜单"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:38
+msgid "Background configuration"
+msgstr "背景配置"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:38
+msgid "You can upload files such as jpg or png files, and files will be uploaded to <code>%s</code>."
+msgstr "你可以上传jpg或png等格式的文件，文件将上传至<code>%s</code>"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:40
+msgid "Login"
+msgstr "登录"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:40
+msgid "Upload file for login background."
+msgstr "上传登录背景文件"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:42
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:54
+msgid "Upload"
+msgstr "上传"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:47
+msgid "Login picture successfully uploaded."
+msgstr "登录图片上传成功"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:52
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:52
+msgid "Upload file for dashboard background."
+msgstr "上传仪表盘背景文件"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:59
+msgid "Dashboard picture successfully uploaded."
+msgstr "仪表盘图片上传成功"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:65
+msgid "Navigation bar configuration"
+msgstr "导航栏配置"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:69
+msgid "Add new navigation"
+msgstr "添加新导航"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:70
+msgid "Add new navigation..."
+msgstr "添加新导航..."
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:71
+msgid "Name"
+msgstr "名称"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:73
+msgid "Status"
+msgstr "状态"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:75
+msgid "Line"
+msgstr "行"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:77
+msgid "New tab"
+msgstr "新标签页"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:79
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:103
+msgid "Icon"
+msgstr "图标"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:81
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:112
+msgid "Address"
+msgstr "地址"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:84
+msgid "Name navigation bar"
+msgstr "导航栏名称"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:87
+msgid "Navigation bar"
+msgstr "导航栏"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:87
+msgid "Enable navigation bar."
+msgstr "启用导航栏"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:90
+msgid "Enable"
+msgstr "启用"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:91
+msgid "Disable"
+msgstr "禁用"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:93
+msgid "Line number"
+msgstr "行号"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:93
+msgid "Enter a line number between 1 to 10."
+msgstr "输入一个1到10之间的行号"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:98
+msgid "Open in new tab"
+msgstr "在新标签页中打开"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:98
+msgid "Enable open links in a new tab."
+msgstr "启用在新标签页中打开链接"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:101
+msgid "Yes"
+msgstr "是"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:102
+msgid "No"
+msgstr "否"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:103
+msgid "Upload PNG file with size 256x256."
+msgstr "上传尺寸为256x256的PNG文件"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:113
+msgid "Modem"
+msgstr "调制解调器"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:114
+msgid "Neko"
+msgstr "猫"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:115
+msgid "Network"
+msgstr "网络"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:116
+msgid "Open Clash"
+msgstr "打开Clash"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:117
+msgid "Overview"
+msgstr "概览"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:118
+msgid "Terminal"
+msgstr "终端" 

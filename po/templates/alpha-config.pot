@@ -1,0 +1,193 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-alpha-config/root/usr/share/luci/menu.d/luci-app-alpha-config.json:3
+msgid "Alpha Config"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:15
+msgid "Alpha theme configuration"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:15
+msgid "Here you can set background login and dashboard themes. Chrome is recommended."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:17
+msgid "Theme configuration"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:19
+msgid "Primary color"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:19
+msgid "A HEX color (default: #2222359a)."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:23
+msgid "Expecting: valid HEX color value"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
+msgid "Transparency level"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
+msgid "Transparent level for menu."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:34
+msgid "Navigation bar"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:34
+msgid "Enable navigation bar menu."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:38
+msgid "Background configuration"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:38
+msgid "You can upload files such as jpg or png files, and files will be uploaded to <code>%s</code>."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:40
+msgid "Login"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:40
+msgid "Upload file for login background."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:42
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:54
+msgid "Upload"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:47
+msgid "Login picture successfully uploaded."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:52
+msgid "Dashboard"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:52
+msgid "Upload file for dashboard background."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:59
+msgid "Dashboard picture successfully uploaded."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:65
+msgid "Navigation bar configuration"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:69
+msgid "Add new navigation"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:70
+msgid "Add new navigation..."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:71
+msgid "Name"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:73
+msgid "Status"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:75
+msgid "Line"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:77
+msgid "New tab"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:79
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:103
+msgid "Icon"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:81
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:112
+msgid "Address"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:84
+msgid "Name navigation bar"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:87
+msgid "Navigation bar"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:87
+msgid "Enable navigation bar."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:90
+msgid "Enable"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:91
+msgid "Disable"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:93
+msgid "Line number"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:93
+msgid "Enter a line number between 1 to 10."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:98
+msgid "Open in new tab"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:98
+msgid "Enable open links in a new tab."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:101
+msgid "Yes"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:102
+msgid "No"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:103
+msgid "Upload PNG file with size 256x256."
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:113
+msgid "Modem"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:114
+msgid "Neko"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:115
+msgid "Network"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:116
+msgid "Open Clash"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:117
+msgid "Overview"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:118
+msgid "Terminal"
+msgstr ""
