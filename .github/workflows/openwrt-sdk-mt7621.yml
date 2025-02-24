@@ -113,22 +113,22 @@ jobs:
         else
           mkdir -p bin/ipk
           patterns=(
-              "bin/packages/*/base/"
-              "bin/packages/*/luci/"
-              "bin/packages/*/packages/"
-              "bin/targets/*/*/packages/"
+            "bin/packages/*/base/"
+            "bin/packages/*/luci/"
+            "bin/packages/*/packages/"
+            "bin/targets/*/*/packages/"
           )
           for pattern in "${patterns[@]}"; do
-              for dir in $(find $(dirname $pattern) -type d -name $(basename $pattern)); do
-                  if [ -d "$dir" ]; then
-                      mv "$dir"/* bin/ipk 2>/dev/null
-                      if [ $? -eq 0 ]; then
-                          echo "成功将 $dir 下的文件移动到 bin/ipk"
-                      else
-                          echo "移动 $dir 下的文件时出错"
-                      fi
-                  fi
-              done
+            for dir in $(find $(dirname $pattern) -type d -name $(basename $pattern)); do
+              if [ -d "$dir" ]; then
+                mv "$dir"/* bin/ipk 2>/dev/null
+                if [ $? -eq 0 ]; then
+                  echo "成功将 $dir 下的文件移动到 bin/ipk"
+                else
+                  echo "移动 $dir 下的文件时出错"
+                fi
+              fi
+            done
           done
           cd bin/ipk
           echo "$PWD"
