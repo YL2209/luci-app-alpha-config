@@ -28,7 +28,7 @@ env:
   TOOLCHAIN: gcc-13.3.0_musl
   PACKAGE: luci-app-alpha-config
   PACKAGE_IPK: alpha
-  IPK_ALL: false
+  IPK_ALL: true
   DIY_P_SH: workflows/diy-part.sh
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
