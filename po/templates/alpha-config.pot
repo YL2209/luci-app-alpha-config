@@ -191,3 +191,18 @@ msgstr ""
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:118
 msgid "Terminal"
 msgstr ""
+
+msgid "Wrong Password. Try Again."
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Please Enter Username & Password."
+msgstr ""
+
+msgid "Login"
+msgstr ""

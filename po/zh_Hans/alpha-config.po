@@ -201,3 +201,18 @@ msgstr "概览"
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:118
 msgid "Terminal"
 msgstr "终端" 
+
+msgid "Wrong Password. Try Again."
+msgstr "密码错误。请重试。"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Please Enter Username & Password."
+msgstr "请输入用户名和密码。"
+
+msgid "Login"
+msgstr "登录"
