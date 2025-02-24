@@ -112,10 +112,10 @@ jobs:
           echo "FIRMWARE=$PWD/ipk_all.tar.gz" >> $GITHUB_ENV
         else
           mkdir bin/ipk
-          mv bin/packages/*/base/* bin/ipk
-          mv bin/packages/*/luci/* bin/ipk
-          mv bin/packages/*/packages/* bin/ipk
-          mv bin/targets/*/*/packages/* bin/ipk
+          [ -d "bin/packages/*/base/" ] && mv bin/packages/*/base/* bin/ipk
+          [ -d "bin/packages/*/luci/" ] && mv bin/packages/*/luci/* bin/ipk
+          [ -d "bin/packages/*/packages/" ] && mv bin/packages/*/packages/* bin/ipk
+          [ -d "bin/targets/*/*/packages/" ] && mv bin/targets/*/*/packages/* bin/ipk
           cd bin/ipk
           echo "$PWD"
           echo "FIRMWARE=$PWD/*${{ env.PACKAGE_IPK }}*" >> $GITHUB_ENV
