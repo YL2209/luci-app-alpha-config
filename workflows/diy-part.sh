@@ -10,3 +10,4 @@ echo "CONFIG_ALL=n" >> .config
 echo "CONFIG_AUTOREMOVE=n" >> .config
 echo "CONFIG_LUCI_LANG_zh_Hans=y" >> .config
 echo "CONFIG_PACKAGE_luci-app-alpha-config=m" >> .config
+echo "CONFIG_PACKAGE_luci-theme-alpha=m" >> .config
