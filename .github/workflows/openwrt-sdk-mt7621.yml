@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'workflows/**'
+      - '/**'
       - '.github/workflows/openwrt-sdk-mt7621.yml'
 
 env:

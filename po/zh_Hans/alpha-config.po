@@ -15,29 +15,37 @@ msgstr ""
 msgid "Alpha Config"
 msgstr "Alpha 主题设置"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:18
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:17
 msgid "Alpha theme configuration"
 msgstr "Alpha主题配置"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:18
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:17
 msgid "Here you can set background login and dashboard themes. Chrome is recommended."
 msgstr "在此处你可以设置登录背景和仪表盘主题。推荐使用Chrome浏览器。"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:20
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:18
 msgid "Theme configuration"
 msgstr "主题配置"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:22
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:20
 msgid "Primary color"
 msgstr "主色调"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:22
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:20
 msgid "A HEX color (default: #2222359a)."
 msgstr "一个十六进制颜色（默认值：#2222359a）。"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:24
 msgid "Expecting: valid HEX color value"
 msgstr "预期：有效的十六进制颜色值"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:27
+msgid "Frosted glass effect"
+msgstr "磨砂玻璃效果"
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:27
+msgid "Fill in an integer here."
+msgstr "此处填一个整数。"
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:29
 msgid "Transparency level"
@@ -163,8 +171,8 @@ msgid "Upload PNG file with size 256x256."
 msgstr "上传尺寸为256x256的PNG文件"
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:113
-msgid "Modem"
-msgstr "调制解调器"
+msgid "WiFi"
+msgstr "无线网络"
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:114
 msgid "Neko"
@@ -175,13 +183,9 @@ msgid "Network"
 msgstr "网络"
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:116
-msgid "Open Clash"
-msgstr "打开 Clash"
-
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:117
 msgid "Overview"
 msgstr "概览"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:118
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:117
 msgid "Terminal"
 msgstr "终端" 

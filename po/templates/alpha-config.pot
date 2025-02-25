@@ -5,28 +5,36 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 msgid "Alpha Config"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:18
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:17
 msgid "Alpha theme configuration"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:18
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:17
 msgid "Here you can set background login and dashboard themes. Chrome is recommended."
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:20
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:18
 msgid "Theme configuration"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:22
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:20
 msgid "Primary color"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:22
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:20
 msgid "A HEX color (default: #2222359a)."
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:24
 msgid "Expecting: valid HEX color value"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:27
+msgid "Frosted glass effect"
+msgstr ""
+
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:27
+msgid "Fill in an integer here."
 msgstr ""
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:29
@@ -153,7 +161,7 @@ msgid "Upload PNG file with size 256x256."
 msgstr ""
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:113
-msgid "Modem"
+msgid "WiFi"
 msgstr ""
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:114
@@ -165,13 +173,9 @@ msgid "Network"
 msgstr ""
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:116
-msgid "Open Clash"
-msgstr ""
-
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:117
 msgid "Overview"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:118
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:117
 msgid "Terminal"
 msgstr "" 

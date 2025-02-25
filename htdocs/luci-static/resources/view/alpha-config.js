@@ -9,14 +9,12 @@
 'require fs';
 'require ui';
 
-var trans_set = [0, 0.1, 0.2, 0.3, 0.4,
+var trans_set = [0.1, 0.2, 0.3, 0.4,
 	0.5, 0.6, 0.7, 0.8, 0.9, 1 ];
-	
 return view.extend({
 	render: function () {
 		var m, s, o;
 		m = new form.Map('alpha', _('Alpha theme configuration'), _('Here you can set background login and dashboard themes. Chrome is recommended.'));
-
 		s = m.section(form.TypedSection, 'theme', _('Theme configuration'));
 		s.anonymous = true;
 		o = s.option(form.Value, 'color', _('Primary color'), _('A HEX color (default: #2222359a).'));
@@ -26,11 +24,13 @@ return view.extend({
 				return /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8}|[0-9a-fA-F]{3}|[0-9a-fA-F]{4})$/i.test(value) || _('Expecting: valid HEX color value');
 			return true;
 		};
-		o = s.option(form.ListValue, 'blur', _('Transparency level'),
+		o = s.option(form.Value, 'blur', _('Frosted glass effect'), _('Fill in an integer here.'));
+		o.rmempty = false;
+		o = s.option(form.ListValue, 'opacity', _('Transparency level'),
 			_('0 transparent - 1 opaque (suggest: transparent: 0 or translucent preset: 0.5).'));
 		for (var i of trans_set)
 			o.value(i);
-		o.default = '0';
+		o.default = '1';
 		o.rmempty = false;
 		o = s.option(form.Flag, 'navbar', _('Navigation bar'), _('Enable navigation bar menu.'));
 		o.rmempty = false;
@@ -110,12 +110,11 @@ return view.extend({
 			return true;
 		};
 		o = s.option(form.Value, 'address', _('Address'));
-		o.value('/cgi-bin/luci/admin/modem/main', _('Modem'));
-		o.value('/cgi-bin/luci/admin/services/neko', _('Neko'));
+		o.value('/cgi-bin/luci/admin/network/wireless', _('WiFi'));
+		o.value('/cgi-bin/luci/admin/dashboard', _('Neko'));
 		o.value('/cgi-bin/luci/admin/network/network', _('Network'));
-		o.value('/cgi-bin/luci/admin/services/openclash', _('Open Clash'));
 		o.value('/cgi-bin/luci/admin/status/overview', _('Overview'));
-		o.value('/cgi-bin/luci/admin/services/ttyd', _('Terminal'));
+		o.value('/cgi-bin/luci/admin/system/ttyd', _('Terminal'));
 		o.rmempty = false;
 		o.modalonly = true;
 
