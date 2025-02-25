@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git clone https://github.com/YL2209/luci-theme-alpha.git package/luci-theme-alpha
+./scripts/feeds install luci-theme-alpha
 git clone https://github.com/YL2209/luci-app-alpha-config.git package/luci-app-alpha-config
 ./scripts/feeds install luci-app-alpha-config
 echo "CONFIG_ALL_NONSHARED=n" > .config

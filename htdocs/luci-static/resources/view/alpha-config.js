@@ -9,6 +9,9 @@
 'require fs';
 'require ui';
 
+var trans_set = [0, 0.1, 0.2, 0.3, 0.4,
+	0.5, 0.6, 0.7, 0.8, 0.9, 1 ];
+	
 return view.extend({
 	render: function () {
 		var m, s, o;
@@ -23,17 +26,14 @@ return view.extend({
 				return /^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8}|[0-9a-fA-F]{3}|[0-9a-fA-F]{4})$/i.test(value) || _('Expecting: valid HEX color value');
 			return true;
 		};
-		o = s.option(form.ListValue, 'blur', _('Transparency level'), _('Transparent level for menu.'));
-		o.value('00', _('0'));
-		o.value('10', _('1'));
-		o.value('20', _('2'));
-		o.value('30', _('3'));
-		o.value('40', _('4'));
-		o.value('50', _('5'));
+		o = s.option(form.ListValue, 'blur', _('Transparency level'),
+			_('0 transparent - 1 opaque (suggest: transparent: 0 or translucent preset: 0.5).'));
+		for (var i of trans_set)
+			o.value(i);
+		o.default = '0';
 		o.rmempty = false;
 		o = s.option(form.Flag, 'navbar', _('Navigation bar'), _('Enable navigation bar menu.'));
 		o.rmempty = false;
-
 		var bg_path = '/www/luci-static/alpha/background/';
 		s = m.section(form.TypedSection, 'theme' , _('Background configuration'), _('You can upload files such as jpg or png files, and files will be uploaded to <code>%s</code>.').format(bg_path));
 		s.anonymous = true;

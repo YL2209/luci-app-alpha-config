@@ -15,43 +15,43 @@ msgstr ""
 msgid "Alpha Config"
 msgstr "Alpha 主题设置"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:15
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:18
 msgid "Alpha theme configuration"
 msgstr "Alpha主题配置"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:15
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:18
 msgid "Here you can set background login and dashboard themes. Chrome is recommended."
 msgstr "在此处你可以设置登录背景和仪表盘主题。推荐使用Chrome浏览器。"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:17
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:20
 msgid "Theme configuration"
 msgstr "主题配置"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:19
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:22
 msgid "Primary color"
 msgstr "主色调"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:19
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:22
 msgid "A HEX color (default: #2222359a)."
-msgstr "一个十六进制颜色（默认值：#2222359a）"
+msgstr "一个十六进制颜色（默认值：#2222359a）。"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:23
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
 msgid "Expecting: valid HEX color value"
 msgstr "预期：有效的十六进制颜色值"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:29
 msgid "Transparency level"
 msgstr "透明度级别"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
-msgid "Transparent level for menu."
-msgstr "菜单的透明度级别"
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:30
+msgid "0 transparent - 1 opaque (suggest: transparent: 0 or translucent preset: 0.5)."
+msgstr "0 表示透明，1 表示不透明（建议：完全透明设为 0，或者半透明预设值设为 0.5） 。"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:34
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:35
 msgid "Navigation bar"
 msgstr "导航栏"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:34
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:35
 msgid "Enable navigation bar menu."
 msgstr "启用导航栏菜单"
 
@@ -142,14 +142,6 @@ msgstr "导航栏"
 msgid "Enable navigation bar."
 msgstr "启用导航栏"
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:90
-msgid "Enable"
-msgstr "启用"
-
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:91
-msgid "Disable"
-msgstr "禁用"
-
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:93
 msgid "Line number"
 msgstr "行号"
@@ -165,14 +157,6 @@ msgstr "在新标签页中打开"
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:98
 msgid "Enable open links in a new tab."
 msgstr "启用在新标签页中打开链接"
-
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:101
-msgid "Yes"
-msgstr "是"
-
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:102
-msgid "No"
-msgstr "否"
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:103
 msgid "Upload PNG file with size 256x256."
@@ -192,7 +176,7 @@ msgstr "网络"
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:116
 msgid "Open Clash"
-msgstr "打开Clash"
+msgstr "打开 Clash"
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:117
 msgid "Overview"
@@ -201,18 +185,3 @@ msgstr "概览"
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:118
 msgid "Terminal"
 msgstr "终端" 
-
-msgid "Wrong Password. Try Again."
-msgstr "密码错误。请重试。"
-
-msgid "Username"
-msgstr "用户名"
-
-msgid "Password"
-msgstr "密码"
-
-msgid "Please Enter Username & Password."
-msgstr "请输入用户名和密码。"
-
-msgid "Login"
-msgstr "登录"

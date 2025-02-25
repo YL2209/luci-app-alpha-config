@@ -5,43 +5,43 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 msgid "Alpha Config"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:15
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:18
 msgid "Alpha theme configuration"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:15
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:18
 msgid "Here you can set background login and dashboard themes. Chrome is recommended."
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:17
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:20
 msgid "Theme configuration"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:19
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:22
 msgid "Primary color"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:19
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:22
 msgid "A HEX color (default: #2222359a)."
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:23
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
 msgid "Expecting: valid HEX color value"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:29
 msgid "Transparency level"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:26
-msgid "Transparent level for menu."
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:30
+msgid "0 transparent - 1 opaque (suggest: transparent: 0 or translucent preset: 0.5)."
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:34
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:35
 msgid "Navigation bar"
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:34
+#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:35
 msgid "Enable navigation bar menu."
 msgstr ""
 
@@ -132,14 +132,6 @@ msgstr ""
 msgid "Enable navigation bar."
 msgstr ""
 
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:90
-msgid "Enable"
-msgstr ""
-
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:91
-msgid "Disable"
-msgstr ""
-
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:93
 msgid "Line number"
 msgstr ""
@@ -154,14 +146,6 @@ msgstr ""
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:98
 msgid "Enable open links in a new tab."
-msgstr ""
-
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:101
-msgid "Yes"
-msgstr ""
-
-#: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:102
-msgid "No"
 msgstr ""
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:103
@@ -190,19 +174,4 @@ msgstr ""
 
 #: applications/luci-app-alpha-config/htdocs/luci-static/resources/view/alpha-config.js:118
 msgid "Terminal"
-msgstr ""
-
-msgid "Wrong Password. Try Again."
-msgstr ""
-
-msgid "Username"
-msgstr ""
-
-msgid "Password"
-msgstr ""
-
-msgid "Please Enter Username & Password."
-msgstr ""
-
-msgid "Login"
-msgstr ""
+msgstr "" 
